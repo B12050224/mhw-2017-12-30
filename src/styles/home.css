@@ -1,0 +1,189 @@
+body{
+    background-color: #F4F6F8;
+}
+.video_list{
+    height: 580px;
+    width:100%;
+}
+.main{
+    width:1200px;
+    margin:0 auto;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.insertleft{
+    float:left;
+    width:300px;
+}
+.insertright{
+    float:right;
+    width:880px;   
+}
+.insertright-top{
+    width:880px;
+    background-color: #ffffff;
+    margin-bottom:20px;
+    padding-bottom:20px;
+}
+/*.insertright-top-introduce{
+    width: 858px;
+    height: 32px;
+    font-size: 18px;
+    padding-top:12px;
+    padding-left:20px;    
+    border: solid 1px #e5e5e5;
+}*/
+.insertright-top-shao{
+    width:840px;
+    max-height:218px; 
+    font-size: 16px;
+    color: #333333;
+    text-indent:2em;
+    padding-right:20px;
+    padding-left:20px;
+    padding-top:18px;
+}
+.insertright-top-shao span{
+    font-size: 16px;
+    color: #1355ea;
+    cursor:pointer; 
+}
+.insertright-center{
+    width:880px;
+    background-color: #ffffff;
+    margin-bottom:20px;
+}
+.insertright-center-introduce{
+    width: 838px;
+    height: 32px;
+    padding-top:12px;
+    padding-left:20px;
+    padding-right:20px;    
+    border: solid 1px #e5e5e5;
+}
+.insertright-center-introduce span:first-child{
+    float:left;
+    font-size:18px;
+}
+.insertright-center-introduce span:last-child{
+    float:right;
+    font-size:14px;
+    cursor:pointer;
+}
+.insertright-center-img{
+    width: 860px;
+    height: 215px;
+    padding-top:20px;
+    padding-left:20px;
+}
+.ih-item{
+    float:left;
+    position: relative;
+    width: 195px;
+    height: 195px;
+    margin-right:20px;
+}
+.ih-item img{
+    position: relative;
+    width: 195px;
+    height: 195px;
+    max-width: 100%;
+    } 
+/*提示文字*/
+.info-strom{
+    padding-top:15px;
+    width: 165px;
+    height: 120px;
+    margin: 0 auto;
+    margin-top:48px;
+    background-color: #ffffff;
+}
+.info-strom p:first-child{
+    width: 152px;
+    height: 46px;
+    margin-left:15px;
+    margin:0 auto;
+    line-height:16px;
+    font-size: 12px;
+    text-align: center;
+    color: #333333;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+.info-strom p:last-child{
+    width: 165px;
+    height: 25px;
+    margin:0 auto;
+    /*background-color: pink;*/
+    margin-top:10px;
+    font-size: 24px;
+    text-align: center;
+    color: #cb1b1d;
+}
+.ih-item .info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    -webkit-backface-visibility: hidden;/* 隐藏旋转元素的背面*/
+    backface-visibility: hidden;
+    background: rgba(0, 0, 0, 0.6);   /*后面这个0.6是指的背景的透明度*/
+    opacity: 0;
+    -webkit-transition: all 0.35s ease-in-out;   /*规定提示信息怎样出现ease-in-out以慢速度开始和结束*/
+    -moz-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+
+/*最最重要的来了，鼠标化划过的时候刚开始info是opacity: 0;现在透明底变成1就显示出来了*/
+.ih-item a:hover .info {
+    opacity: 1;    /*有opacity有0变成1*/            
+}
+.insertright-bottom{
+    width:880px;
+    padding-bottom:20px;
+    background-color: #ffffff;
+}
+.insertright-bottom-img{
+    width:880px;
+    padding-left:20px;
+    background-color: #ffffff;
+}
+.insertright-bottom-img li{
+    float:left;
+    width:193px;
+    height:268px;
+    margin-right:20px;
+    margin-top:20px;
+    border: solid 1px #e5e5e5;
+}
+.insertright-bottom-img li img{
+    width:193px;
+    height:193px;
+    border-bottom:1px solid #e5e5e5;
+}
+.insertright-bottom-p1{
+    margin-top:12px;
+    margin-left:12px;
+    margin-right:20px;
+    font-size: 12px;
+    color: #333333;
+    overflow: hidden;
+    line-height: 15px;
+    height: 30px;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.insertright-bottom-p2{
+    margin-top:5px;
+    font-size:16px;
+    color: #cb1b1d;
+    margin-left:12px;
+}
+    
+

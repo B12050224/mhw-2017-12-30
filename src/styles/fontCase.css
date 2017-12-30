@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('//at.alicdn.com/t/font_509764_lfkk3h0y1yktke29.eot');
+  src: url('//at.alicdn.com/t/font_509764_lfkk3h0y1yktke29.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_509764_lfkk3h0y1yktke29.woff') format('woff'),
+  url('//at.alicdn.com/t/font_509764_lfkk3h0y1yktke29.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_509764_lfkk3h0y1yktke29.svg#iconfont') format('svg');
+}
+
+
+.glyphicon {
+  position: relative;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.glyphicon-collect::before{content: "\e666";}
+.glyphicon-collect-in::before{content: "\e667";}
+.glyphicon-add::before{content: "\e61f";}
+.glyphicon-reduce::before{content: "\e643";}
+.glyphicon-left::before{content: "\e62b";}
+.glyphicon-right::before{content: "\e62a";}
+.glyphicon-chart::before{content: "\e668";}
+.glyphicon-erweima::before{content: "\e65b";}
+.glyphicon-down::before{content: "\e6bc";}
+.glyphicon-up::before{content: "\e615";}

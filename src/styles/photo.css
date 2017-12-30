@@ -1,0 +1,158 @@
+.main{
+    width:1200px;
+    margin:0 auto;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+.insertleft{
+    float:left;
+    width:300px;
+}
+.insertright{
+    float:right;
+    width:880px;   
+}
+.survey-company{
+    width: 878px;
+    height: 44px;
+    background-color: #ffffff;
+    border: solid 1px #e5e5e5;
+}
+.survey-company p{
+    width: 72px;
+    height: 18px;
+    margin-top:10px;
+    margin-left:20px;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+}
+.insertright-img{
+    width: 860px;
+    padding-left:20px;
+    padding-bottom:20px;
+    background-color: #ffffff;
+}
+.insertright-img-ce{
+    float:left;
+    margin-top:20px;
+    margin-right:20px;
+    width:191px;
+    height:219px;
+    cursor:pointer;
+}
+.insertright-img-ce img{
+    width:191px;
+    height:191px;
+    display:block;
+}
+.insertright-img-ce p{
+    margin-top:10px;
+    width:191px;
+    height:16px;
+    line-height:16px;
+    font-size:14px;
+    color: #333333;
+    text-align:center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+/*模态框样式开始*/
+.m-modal {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: none;
+	z-index: 1000;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, .8);
+}
+
+.m-modal-dialog {
+	font-family: "microsoft yahei", "宋体";
+	position: relative;
+	margin: 0 auto;
+	margin-top: -100%;
+    transform: translateY(-20%);
+    width: 30.4rem;
+    height: 24rem;
+    background-color: #ffffff;
+	box-shadow: 0 0.12rem 0.36rem rgba(0, 0, 0, .2);
+}
+.m-modal-close{
+    text-align:right;
+    padding-top:0.12rem;
+    padding-right:0.2rem;
+	font-size: 1.6rem;
+	line-height: 0.8rem;
+	color:#999999;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	color: #555;
+}
+.m-modal-img{
+    width: 20.8rem;
+    height: 20rem;
+    margin-left:4.8rem;
+    margin-top:0.6rem; 
+    overflow:hidden;
+}
+.m-modal-img img{
+    display:block;
+    width: 20.8rem;
+    height: 20rem; 
+}
+.m-modal-num{
+    width:2.8rem;
+    height: 1rem;
+    margin: 0 auto;
+    margin-top:0.2rem;
+    font-size: 0.72rem;
+    text-align: center;
+    color: #333333;
+    border-bottom:0.04rem solid #333333;
+}
+.modal-main-left,.modal-main-right{
+    position:absolute;
+    cursor:pointer;
+    width: 1.36rem;
+    height: 4.8rem;
+    opacity: 0.2;
+    background-color: #000000;
+}
+.modal-main-left{
+    left:2.4rem;
+    top:9.8rem;
+    float:left;
+}
+.modal-main-right{
+    right:2.4rem;
+    top:9.8rem;
+    float:right;
+}
+.glyphicon-left,.glyphicon-right{
+    position:absolute;   
+    width:0.64rem;
+    height:0.64rem; 
+    pointer-events: none;
+    font-size:0.64rem;
+    line-height:0.64rem;    
+    top:30%;
+    left:32%;
+    color:#cccccc;
+}
+/*模态框样式结束*/
+    

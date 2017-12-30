@@ -1,0 +1,30 @@
+[
+    { 
+        "id":"1",
+        "url": "../../img/image (2).jpg", 
+        "content": "公司公司相公司公司相公司公司相册相册2（98）", 
+        "length": "2",
+        "erji":[
+            {
+              "url": "../../img/image (2).jpg"  
+            },
+            {
+               "url": "../../img/image (2).jpg" 
+            }
+        ]
+    },
+     { 
+        "id":"2",
+        "url": "../../img/image5.jpg", 
+        "content": "公司公司相公司公司相公司公司相册相册2（98）", 
+        "length": "2",
+        "erji":[
+            {
+              "url": "../../img/image (2).jpg"  
+            },
+            {
+               "url": "../../img/image (2).jpg" 
+            }
+        ]
+    }
+]
